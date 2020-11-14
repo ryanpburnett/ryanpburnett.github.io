@@ -1,0 +1,46 @@
+*   {
+    flex-wrap: wrap;
+    max-width: 100%;
+} 
+
+h1  {
+    color: mediumseagreen;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+}
+
+.name   {
+    background-color: mediumseagreen;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.marginRight {
+    margin-right: 75%
+}
+
+.navItems    {
+    justify-content: right;
+
+}
+
+.marginForm {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.greenButton    {
+    background-color: mediumseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@include media-breakpoint-down(xs) {400}
+@include media-breakpoint-down(sm) {768}
+@include media-breakpoint-down(lg) {992}

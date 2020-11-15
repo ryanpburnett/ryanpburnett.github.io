@@ -16,6 +16,6 @@ Gives information on Ryan and his coding experience.
 
 * Uses responsive layout
 
-## Quesions?
+## Questions?
 
 Email Ryan at ryanpburnett@yahoo.com

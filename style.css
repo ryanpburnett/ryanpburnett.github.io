@@ -70,6 +70,10 @@ p   {
     text-align: center;
 }
 
+.nav-item:hover {
+    color: bisque;
+}
+
 @media screen and (max-width: 768px) {
     .column {
         width: 50%;

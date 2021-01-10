@@ -2,24 +2,35 @@
     flex-wrap: wrap;
     max-width: 100%;
 } 
+body {
+    /* gradient */
+    background: rgb(0,36,1);
+    background: linear-gradient(121deg, rgba(0,36,1,1) 0%, rgba(255,255,255,1) 0%, rgba(223,242,202,1) 99%, rgba(101,191,1,1) 100%);
+    /* fixes background height */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-h1  {
+.heading-text  {
     color: mediumseagreen;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     padding-left: 50px;
 }
 
-p   {
-    padding-left: 50px;
-    padding-right: 50px;
+.body-text {
+    font-family: 'Arya', sans-serif;
+    size: 20px;
 }
 
 .image  {
     float: left;
     padding-right: 20px;
     padding-left: 20px;
-    height: 450px;
+    height: 300px;
     width: 300px;
 }
 
@@ -70,17 +81,18 @@ p   {
     background-color: lightseagreen;
     border: 2px solid black;
     text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 @media screen and (max-width: 768px) {
     .column {
         width: 50%;
     }
-
 }
 
 @media screen and (max-width: 400px) {
     .column {
-          width: 100%;
+        width: 100%;
     }
 }

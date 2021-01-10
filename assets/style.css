@@ -65,14 +65,19 @@ body {
     padding-bottom: 10px;
 }
 
+.portfolio-heading {
+    font-weight: bold;
+}
+
 .portfolio  {
-    border-width: 2px solid black;
-    background-color: lightgray;
+    overflow: auto;
     text-align: center;
+    background-color: lightgray;
     float: left;
-    width: 30%;
-    height: 3em;
+    width: 32%;
+    height: 40em;
     margin: 5px;
+    border-width: 2px solid black;
     border-radius: 3px;
 }
 

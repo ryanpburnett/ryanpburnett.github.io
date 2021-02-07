@@ -82,7 +82,7 @@ body {
     text-align: center;
     background-color: lightgray;
     float: left;
-    width: 32%;
+    width: 30%;
     height: 40em;
     margin: 10px;
     border-radius: 3px;
@@ -101,14 +101,14 @@ body {
     padding-bottom: 8px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1350px) {
     .column {
-        column-count: 2;
+        width: 45%;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .column {
-        column-count: 1;
+        width: 100%;
     }
 }

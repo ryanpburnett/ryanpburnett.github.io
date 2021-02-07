@@ -103,12 +103,12 @@ body {
 
 @media screen and (max-width: 768px) {
     .column {
-        width: 50%;
+        column-count: 2;
     }
 }
 
 @media screen and (max-width: 400px) {
     .column {
-        width: 100%;
+        column-count: 1;
     }
 }

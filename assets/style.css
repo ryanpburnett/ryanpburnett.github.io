@@ -85,6 +85,16 @@ body {
     box-shadow: 5px 5px 10px;
 }
 
+.contact  {
+    background-color: lightgray;
+    width: 50%;
+    height: 40em;
+    margin-left: 3em;
+    padding: 3em;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px;
+}
+
 .footer {
     bottom: 0%;
     position: fixed;

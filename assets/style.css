@@ -86,11 +86,13 @@ body {
 }
 
 .contact  {
+    overflow: auto;
     background-color: lightgray;
-    width: 50%;
-    height: 40em;
-    margin-left: 3em;
-    padding: 3em;
+    float: left;
+    width: 30%;
+    height: 20em;
+    margin: 10px;
+    padding: 30px;
     border-radius: 3px;
     box-shadow: 5px 5px 10px;
 }

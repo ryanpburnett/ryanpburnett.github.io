@@ -118,6 +118,15 @@ body {
     .name {
         font-size: 12px;
     }
+
+    .contact {
+        font-size: 12px;
+    }
+
+    .contact-icon {
+        height: 32px;
+        width: 32px;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -147,10 +156,6 @@ body {
         width: 30%;
     }
 
-    .contact {
-        width: 60%
-    }
-
     .image {
         height: 228px;
         width: 228px;
@@ -160,10 +165,6 @@ body {
 @media screen and (min-width: 1200px) {
     .portfolio {
         width: 30%;
-    }
-
-    .contact {
-        width: 60%;
     }
 
     .image {

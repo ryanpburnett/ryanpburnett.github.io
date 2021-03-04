@@ -14,7 +14,7 @@ body {
 }
 
 .name   {
-    background-color: mediumseagreen;
+    background-color: rgb(60, 179, 129);
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -59,14 +59,6 @@ body {
     margin-left: 5%;
     margin-right: 25%;
     margin-top: 5%;
-}
-
-.greenButton    {
-    background-color: mediumseagreen;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .portfolio-heading {
@@ -117,6 +109,14 @@ body {
     .image {
         height: 175px;
         width: 175px;
+    }
+    
+    .navItems {
+        font-size: 12px;
+    }
+
+    .name {
+        font-size: 12px;
     }
 }
 

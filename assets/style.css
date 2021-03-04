@@ -47,8 +47,8 @@ body {
 
 .image  {
     float: left;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .navItems    {
@@ -77,10 +77,10 @@ body {
     overflow: auto;
     text-align: center;
     background-color: lightgray;
-    float: left;
-    width: 30%;
     height: 40em;
     margin: 10px;
+    width: 30%;
+    float: left;
     border-radius: 3px;
     box-shadow: 5px 5px 10px;
 }
@@ -109,14 +109,65 @@ body {
     padding-bottom: 8px;
 }
 
-@media screen and (max-width: 1350px) {
-    .column {
-        width: 45%;
+@media screen and (max-width: 600px) {
+    .portfolio {
+        width: 100%;
+    }
+
+    .image {
+        height: 175px;
+        width: 175px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .column {
+@media screen and (min-width: 600px) {
+    .portfolio {
         width: 100%;
+    }
+
+    .image {
+        height: 175px;
+        width: 175px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio {
+        width: 45%;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .portfolio {
+        width: 30%;
+    }
+
+    .contact {
+        width: 60%
+    }
+
+    .image {
+        height: 228px;
+        width: 228px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio {
+        width: 30%;
+    }
+
+    .contact {
+        width: 60%;
+    }
+
+    .image {
+        height: 228px;
+        width: 228px;
     }
 }

@@ -94,6 +94,8 @@ body {
 }
 
 .footer {
+    font-family: 'Arya', sans-serif;
+    size: 20px;
     bottom: 0%;
     position: fixed;
     height: 3em;

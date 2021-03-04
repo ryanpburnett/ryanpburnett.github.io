@@ -89,6 +89,10 @@ body {
     box-shadow: 5px 5px 10px;
 }
 
+.contact-icon {
+    margin-bottom: 10px;
+}
+
 .footer {
     bottom: 0%;
     position: fixed;

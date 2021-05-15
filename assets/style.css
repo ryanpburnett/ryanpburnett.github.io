@@ -66,6 +66,7 @@ body {
 }
 
 .portfolio {
+    position: relative;
     overflow: auto;
     text-align: center;
     background-color: rgba(194, 194, 194, 0.904);
@@ -74,13 +75,16 @@ body {
     padding-top: 10px;
     width: 30%;
     float: left;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .portfolio:hover {
     transition: all 0.2s;
     box-shadow: 5px 5px 10px;
-    background-color: lightgray;
+    background: rgb(190,189,189);
+    background: linear-gradient(325deg, rgba(190,189,189,1) 0%, rgba(233,233,233,1) 100%);
+    top: -3px;
+    left: -1px;
 }
 
 .contact  {

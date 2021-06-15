@@ -78,7 +78,7 @@ body {
     border-radius: 5px;
 }
 
-.portfolio:hover {
+.portfolio:hover, .contact:hover {
     transition: all 0.2s;
     box-shadow: 5px 5px 10px;
     background: rgb(190,189,189);
@@ -88,6 +88,7 @@ body {
 }
 
 .contact  {
+    position: relative;
     overflow: auto;
     background-color: rgba(194, 194, 194, 0.904);
     float: left;
@@ -95,8 +96,7 @@ body {
     height: 27em;
     margin: 10px;
     padding: 30px;
-    border-radius: 3px;
-    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
 }
 
 .contact-icon {

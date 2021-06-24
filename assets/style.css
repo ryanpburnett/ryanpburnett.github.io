@@ -38,11 +38,18 @@ body {
     padding-left: 50px;
 }
 
-.body-text {
+.body-text, .portfolio-text {
     font-family: 'Arya', sans-serif;
-    size: 20px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.body-text {
+    size: 20px;
+}
+
+.portfolio-text {
+    size: 15px;
 }
 
 .image  {

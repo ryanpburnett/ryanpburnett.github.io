@@ -87,11 +87,16 @@ body {
 
 .portfolio:hover, .contact:hover {
     transition: all 0.2s;
-    box-shadow: 5px 5px 10px;
+    box-shadow:
+        0 13.7px 6.8px rgba(0, 0, 0, 0.052),
+        0 19.7px 13px rgba(0, 0, 0, 0.059),
+        0 25.5px 18.9px rgba(0, 0, 0, 0.061),
+        0 32.4px 25.6px rgba(0, 0, 0, 0.063),
+        0 41.9px 36.6px rgba(0, 0, 0, 0.072),
+        0 61px 71px rgba(0, 0, 0, 0.13);
     background: rgb(190,189,189);
     background: linear-gradient(325deg, rgba(190,189,189,1) 0%, rgba(233,233,233,1) 100%);
     top: -3px;
-    left: -1px;
 }
 
 .contact  {

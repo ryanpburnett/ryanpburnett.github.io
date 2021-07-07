@@ -30,6 +30,17 @@ body {
     background-color: rgb(36, 207, 179);
 }
 
+.item {
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 20px;
+}
+
+.item:hover {
+    text-shadow: 2px 2px 7px;
+    box-shadow: 2px 2px 3px, -2px -2px 3px;
+}
+
 .heading-text  {
     color: mediumseagreen;
     font-size: 40px;

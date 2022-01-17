@@ -1,4 +1,4 @@
-*   {
+* {
     flex-wrap: wrap;
     max-width: 100%;
 } 
@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
 }
 
-.name   {
+.name {
     background-color: mediumseagreen;
     padding-left: 30px;
     padding-right: 30px;

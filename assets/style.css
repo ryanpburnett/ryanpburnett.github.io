@@ -58,7 +58,7 @@ body {
 
 .body-text {
     size: 20px;
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 1s;
 }
 
 .portfolio-text {
@@ -97,7 +97,7 @@ body {
     float: left;
     border-radius: 5px;
     /* fade in */
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 1s;
 }
 
 .portfolio:hover, .contact:hover {
@@ -125,7 +125,7 @@ body {
     padding: 30px;
     border-radius: 5px;
     /* fade in */
-    animation: fadeIn ease 2s;
+    animation: fadeIn ease 1.0s;
 }
 
 .contact-icon {
@@ -146,9 +146,10 @@ body {
     padding-bottom: 8px;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn {  
     0% {
         opacity: 0%;
+        margin-top: 1.5%;
     }
     100% {
         opacity: 100%;

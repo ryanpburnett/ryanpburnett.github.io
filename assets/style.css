@@ -5,8 +5,8 @@
 
 body {
     /* gradient */
-    background: rgb(0,36,1);
-    background: linear-gradient(90deg, rgba(0,36,1,1) 0%, rgba(255,255,255,1) 0%, rgba(223,242,202,1) 99%, rgba(101,191,1,1) 100%);
+    background: rgb(197,255,175);
+    background: linear-gradient(90deg, rgba(197,255,175,1) 0%, rgba(99,254,96,1) 50%, rgba(0,195,2,1) 100%);
     /* fixes background height */
     height: 100%;
     margin: 0;

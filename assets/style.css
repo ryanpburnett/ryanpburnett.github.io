@@ -1,3 +1,6 @@
+/* TO FIX */
+/* CSS needs to be simplified/redesigned? */
+
 * {
     flex-wrap: wrap;
     max-width: 100%;
@@ -126,7 +129,7 @@ a {
     overflow: auto;
     background-color: rgba(146, 144, 145, 0.904);
     float: left;
-    width: 90%;
+    width: 45%;
     margin: 5px;
     margin-left: 15px;
     padding: 10px;

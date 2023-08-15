@@ -127,16 +127,17 @@ a {
     background-color: rgba(146, 144, 145, 0.904);
     float: left;
     width: 90%;
-    height: 27em;
-    margin: 10px;
-    padding: 30px;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 10px;
     border-radius: 5px;
     /* fade in */
     animation: fadeIn ease 1.0s;
 }
 
 .contact-icon {
-    margin-bottom: 10px;
+    height: 1.5em;
+    margin: 1em;
 }
 
 .footer {

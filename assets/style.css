@@ -160,6 +160,15 @@ a {
     padding-bottom: 8px;
 }
 
+/* HOPEFULLY TEMPORARY */
+
+.note {
+    font-weight: bold;
+    margin: 1em;
+}
+
+/* END HOPEFULLY TEMPORARY */
+
 @keyframes fadeIn {  
     0% {
         opacity: 0%;

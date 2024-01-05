@@ -87,6 +87,10 @@ a {
     justify-content: right;
 }
 
+.secret:hover {
+    color: red;
+}
+
 .marginForm {
     margin-left: 5%;
     margin-right: 25%;

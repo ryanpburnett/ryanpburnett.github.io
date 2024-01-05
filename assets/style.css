@@ -205,6 +205,11 @@ audio::-webkit-media-controls-panel {
 }
 
 @media screen and (max-width: 600px) {
+
+    audio {
+        margin: 1em;
+    }
+
     .portfolio {
         width: 90%;
     }
@@ -233,6 +238,11 @@ audio::-webkit-media-controls-panel {
 }
 
 @media screen and (min-width: 600px) {
+
+    audio {
+        margin: 1em;
+    }
+
     .portfolio {
         width: 90%;
     }

@@ -91,6 +91,11 @@ a {
     color: red;
 }
 
+.fitSecretImg {
+    max-width: 40%;
+    max-height: 40%;
+}
+
 .marginForm {
     margin-left: 5%;
     margin-right: 25%;

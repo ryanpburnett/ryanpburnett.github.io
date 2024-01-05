@@ -29,7 +29,7 @@ audio {
 
 audio::-webkit-media-controls-panel {
     background-color: mediumseagreen;
-  }
+}
 
 .name {
     background-color: mediumseagreen;
@@ -210,6 +210,11 @@ audio::-webkit-media-controls-panel {
         margin: 1em;
     }
 
+    .fitSecretImg {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
     .portfolio {
         width: 90%;
     }
@@ -238,10 +243,6 @@ audio::-webkit-media-controls-panel {
 }
 
 @media screen and (min-width: 600px) {
-
-    audio {
-        margin: 1em;
-    }
 
     .portfolio {
         width: 90%;

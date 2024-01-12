@@ -121,7 +121,7 @@ audio::-webkit-media-controls-panel {
     overflow: auto;
     text-align: center;
     background-color: rgba(146, 144, 145, 0.904);
-    height: 40em;
+    height: 30em;
     margin: 10px;
     padding-top: 10px;
     width: 30%;

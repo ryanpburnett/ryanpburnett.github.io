@@ -145,14 +145,11 @@ audio::-webkit-media-controls-panel {
 }
 
 .contact  {
-    position: relative;
-    overflow: auto;
     background-color: rgba(146, 144, 145, 0.904);
-    border: 1px solid black ;
-    float: left;
-    width: 45%;
+    border: 1px solid black;
+    width: 30%;
     margin: 5px;
-    margin-left: 10px;
+    margin-left: 3em;
     padding: 10px;
     border-radius: 5px;
     /* fade in */
@@ -162,6 +159,12 @@ audio::-webkit-media-controls-panel {
 .contact-icon {
     height: 1.5em;
     margin: 1em;
+}
+
+.contact-p-tags {
+    margin-left: 2em;
+    /* fade in */
+    animation: fadeIn ease 1.0s;
 }
 
 .footer {

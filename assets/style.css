@@ -37,7 +37,7 @@ audio {
 audio::-webkit-media-controls-panel {
     /* old */
     /* background-color: mediumseagreen; */
-    background-color: (1, 30, 156);
+    background-color: rgb(205, 215, 255);
 }
 
 .headline {

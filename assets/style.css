@@ -154,6 +154,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .portfolio {
+    color: black;
     border: 1px solid black ;
     position: relative;
     overflow: auto;

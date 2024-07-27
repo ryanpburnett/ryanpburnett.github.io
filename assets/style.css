@@ -57,9 +57,6 @@ audio::-webkit-media-controls-panel {
 .tricolon3 {
     animation: fadeIn ease 10s;
     font-size: 1.5rem;
-}
-
-.lightAnchorTag {
     color:  rgb(180, 75, 0);
     text-decoration: underline;
 }

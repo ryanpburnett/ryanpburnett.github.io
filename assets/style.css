@@ -41,7 +41,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .headline {
-    text-align: center; margin-top: 7em;
+    text-align: center; margin-top: 5em;
     font-size: 2em;
 }
 
@@ -51,10 +51,12 @@ audio::-webkit-media-controls-panel {
 
 .tricolon2 {
     animation: fadeIn ease 8s;
+    font-size: 1rem;
 }
 
 .tricolon3 {
     animation: fadeIn ease 10s;
+    font-size: 1.5rem;
 }
 
 .lightAnchorTag {

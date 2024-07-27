@@ -40,6 +40,28 @@ audio::-webkit-media-controls-panel {
     background-color: (1, 30, 156);
 }
 
+.headline {
+    text-align: center; margin-top: 7em;
+    font-size: 2em;
+}
+
+.tricolon1 {
+    animation: fadeIn ease 3s;
+}
+
+.tricolon2 {
+    animation: fadeIn ease 8s;
+}
+
+.tricolon3 {
+    animation: fadeIn ease 10s;
+}
+
+.lightAnchorTag {
+    color:  rgb(180, 75, 0);
+    text-decoration: underline;
+}
+
 .name {
     /* old */
     /* background-color: mediumseagreen; */

@@ -47,6 +47,7 @@ audio::-webkit-media-controls-panel {
 
 .tricolon1 {
     animation: fadeIn ease 3s;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .tricolon2 {
@@ -70,6 +71,7 @@ audio::-webkit-media-controls-panel {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .name:hover {

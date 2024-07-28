@@ -68,7 +68,7 @@ audio::-webkit-media-controls-panel {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 3px;
+    border-radius: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
 

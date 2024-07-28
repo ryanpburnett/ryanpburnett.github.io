@@ -24,9 +24,7 @@ body {
 }
 
 a {
-    /* old */
-    /* color: darkblue; */
-    color: rgb(0, 4, 56);
+    color: darkblue;
 }
 
 audio {
